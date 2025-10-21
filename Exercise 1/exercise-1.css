@@ -1,0 +1,12 @@
+body {
+  background-color: lightgreen;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.title {
+  text-align: center;
+}

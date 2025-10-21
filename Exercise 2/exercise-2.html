@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="exercise-2.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <form class="container">
+      <h1 class="header">Contact Information</h1>
+      <label class="data" for="title">Title:</label>
+      <select name="title" id="title" required>
+        <option value="">Choose your title</option>
+        <option value="mr">Mr.</option>
+        <option value="ms">Ms.</option>
+        <option value="mrs">Mrs.</option>
+        <option value="miss">Miss.</option>
+        <option value="dr">Dr.</option>
+        <option value="sir">Sir.</option>
+      </select>
+
+      <label class="data" for="fname">First Name:</label>
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="Enter your first name"
+        required
+      />
+      <label class="data" for="lname">Last Name:</label>
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="Enter your last name"
+        required
+      />
+      <label class="data" for="email">Email(optional):</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="you@example.com"
+      />
+      <label class="data" for="message">Message:</label>
+      <textarea
+        type="text"
+        id="message"
+        name="message"
+        rows="4"
+        cols="40"
+        placeholder="Write your message here"
+      ></textarea>
+    </form>
+  </body>
+</html>
